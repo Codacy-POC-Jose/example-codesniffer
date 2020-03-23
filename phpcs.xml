@@ -18,6 +18,7 @@
     <rule ref="Security.BadFunctions.EasyXSS" />
     <rule ref="Generic.PHP.CharacterBeforePHPOpeningTag" />
 
+    <rule ref="WordPress.Security.NonceVerification"></rule>
     <rule ref="Magento2.PHP.Goto">
         <severity>10</severity>
         <type>error</type>
